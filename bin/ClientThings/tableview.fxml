@@ -29,17 +29,17 @@
          <children>
             <ImageView fitHeight="79.0" fitWidth="96.0" onMouseClicked="#getAddView" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../add-user-2-457816.png" />
+                  <Image url="@../../assets/add-user-2-457816.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="76.0" fitWidth="100.0" onMouseClicked="#refreshtable" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../refresh-387-370816.png" />
+                  <Image url="@../../assets/refresh-387-370816.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="75.0" fitWidth="106.0" onMouseClicked="#print" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../pngtree-printer-glyph-black-icon-png-image_3755393.jpg" />
+                  <Image url="@../../assets/pngtree-printer-glyph-black-icon-png-image_3755393.jpg" />
                </image>
             </ImageView>
          </children>
@@ -48,7 +48,7 @@
          <children>
             <ImageView fitHeight="58.0" fitWidth="63.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../close_1-512.png" />
+                  <Image url="@../../assets/close_1-512.png" />
                </image>
             </ImageView>
          </children>

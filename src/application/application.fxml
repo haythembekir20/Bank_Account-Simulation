@@ -11,12 +11,12 @@
    <children>
       <ImageView fitHeight="113.0" fitWidth="161.0" layoutX="26.0" layoutY="107.0" onMouseClicked="#qq" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../recruit2.png" />
+            <Image url="@../../assets/recruit2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="120.0" fitWidth="107.0" layoutX="245.0" layoutY="87.0" onMouseClicked="#viewcompte" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../bank-1543279-1305769.png" />
+            <Image url="@../../assets/bank-1543279-1305769.png" />
          </image>
       </ImageView>
       <Text layoutX="40.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Simulation" wrappingWidth="352.6708984375">
