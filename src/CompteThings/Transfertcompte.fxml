@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="373.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CompteThings.virementController">
+   <children>
+      <TextField fx:id="montantfiled" layoutX="92.0" layoutY="231.0" />
+      <Button fx:id="transfertbtn" layoutX="115.0" layoutY="297.0" mnemonicParsing="false" onMouseClicked="#transfertevent" prefHeight="31.0" prefWidth="142.0" text="Transfert" />
+      <Text layoutX="20.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="operation de virement">
+         <font>
+            <Font name="Futura-Bold" size="34.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="numcptbox1" layoutX="93.0" layoutY="102.0" prefHeight="31.0" prefWidth="187.0" promptText="numcompte1" />
+      <ComboBox fx:id="numcptbox2" layoutX="93.0" layoutY="165.0" prefHeight="31.0" prefWidth="187.0" promptText="numcompte2" />
+   </children>
+</AnchorPane>

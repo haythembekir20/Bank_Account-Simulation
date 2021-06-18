@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="284.0" prefWidth="292.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.signincontroller">
+   <children>
+      <Text layoutX="98.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="95.6708984375">
+         <font>
+            <Font name="Corbel Bold" size="34.0" />
+         </font>
+      </Text>
+      <TextField fx:id="usernamefiled" layoutX="53.0" layoutY="66.0" />
+      <Button layoutX="114.0" layoutY="211.0" mnemonicParsing="false" onMouseClicked="#signinaction" text="Sign in" />
+      <PasswordField fx:id="pwdfiled" layoutX="54.0" layoutY="142.0" />
+   </children>
+</AnchorPane>

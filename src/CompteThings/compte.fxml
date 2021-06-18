@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CompteThings.Controller">
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <children>
+      <AnchorPane prefHeight="573.0" prefWidth="911.0" style="-fx-background-color: #f0f1f5;">
+         <children>
+            <VBox layoutX="659.0" layoutY="39.0" prefHeight="175.0" prefWidth="101.0" spacing="25.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="97.0" text="num " />
+                  <Label prefHeight="21.0" prefWidth="134.0" text="decouvertMaxar" />
+                  <Label text="debitMax" />
+                  <Label text="idClient " />
+               </children>
+            </VBox>
+            <VBox layoutX="753.0" layoutY="39.0" prefHeight="164.0" prefWidth="147.0" spacing="13.0">
+               <children>
+                  <TextField fx:id="num_text" />
+                  <TextField fx:id="decmax_text" />
+                  <TextField fx:id="deb_max_text" />
+                  <ComboBox fx:id="idclientboxcrud" prefWidth="150.0" />
+               </children>
+            </VBox>
+            <TableView fx:id="main_table" layoutX="31.0" layoutY="88.0" onMouseClicked="#mouseClicked" prefHeight="471.0" prefWidth="590.0">
+               <columns>
+                  <TableColumn fx:id="num_column" prefWidth="67.0" text="num" />
+                  <TableColumn fx:id="solde_column" prefWidth="91.0" text="solde" />
+                  <TableColumn fx:id="decouvertmax_column" prefWidth="116.0" text="decouvertMax" />
+                  <TableColumn fx:id="debitmax_column" prefWidth="92.0" text="debitMax" />
+                  <TableColumn fx:id="sitcompet_column" prefWidth="141.0" text="situation_compte" />
+                  <TableColumn fx:id="idcli_column" prefWidth="82.0" text="idClient " />
+               </columns>
+            </TableView>
+            <Button fx:id="create_btn" layoutX="753.0" layoutY="342.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="27.0" prefWidth="112.0" text="Create" />
+            <Button fx:id="update_btn" layoutX="753.0" layoutY="398.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="27.0" prefWidth="112.0" text="Update" />
+            <Button fx:id="delete_btn" layoutX="753.0" layoutY="450.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="27.0" prefWidth="112.0" text="Delete" />
+            <Button fx:id="get_button" layoutX="783.0" layoutY="503.0" mnemonicParsing="false" onAction="#buttonPressed" text="Get" />
+            <Button fx:id="revert_button" layoutX="837.0" layoutY="503.0" mnemonicParsing="false" onAction="#buttonPressed" text="Revert" />
+            <ComboBox fx:id="idclientbox" layoutX="629.0" layoutY="503.0" prefHeight="31.0" prefWidth="137.0" promptText="IdClient" />
+            <ImageView fitHeight="63.0" fitWidth="55.0" layoutX="57.0" layoutY="18.0" onMouseClicked="#refreshtable" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../refresh-387-370816.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="141.0" layoutY="19.0" onMouseClicked="#getAddViewOperation" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png-clipart-electronic-funds-transfer-cooperative-bank-icon-credit-union-credit-card-banking-text-hand.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="63.0" layoutX="260.0" layoutY="18.0" onMouseClicked="#getAddView" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../add-money-1817145-1538013.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="61.0" layoutX="363.0" layoutY="23.0" onMouseClicked="#getmaxsolde" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Moneybag-Symbol-Money-Bag-Sack-Cash-Icon-Pouch-37647.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="79.0" layoutX="464.0" layoutY="25.0" onMouseClicked="#getcomptedecouvert" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png-clipart-money-bag-bank-computer-icons-money-bag-investment-logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

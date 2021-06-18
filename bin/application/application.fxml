@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="281.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.zz">
+   <children>
+      <ImageView fitHeight="113.0" fitWidth="161.0" layoutX="26.0" layoutY="107.0" onMouseClicked="#qq" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../recruit2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="107.0" layoutX="245.0" layoutY="87.0" onMouseClicked="#viewcompte" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../bank-1543279-1305769.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="40.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Simulation" wrappingWidth="352.6708984375">
+         <font>
+            <Font name="Corbel Bold" size="29.0" />
+         </font>
+      </Text>
+      
+   </children>
+</AnchorPane>

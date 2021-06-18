@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientThings.addclientController">
+   <children>
+      <HBox prefHeight="64.0" prefWidth="386.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Client Details" textAlignment="CENTER" wrappingWidth="384.78466796875">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox prefHeight="42.0" prefWidth="386.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" wrappingWidth="69.6708984375">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="nomfield" prefHeight="31.0" prefWidth="320.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="74.0" prefHeight="42.0" prefWidth="386.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom" wrappingWidth="103.6708984375">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="prenomfield" prefHeight="31.0" prefWidth="274.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="116.0" prefHeight="42.0" prefWidth="407.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse" wrappingWidth="102.6708984375">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="adressefield" prefHeight="31.0" prefWidth="253.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="158.0" prefHeight="42.0" prefWidth="386.0">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="142.0" prefWidth="386.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#save" prefHeight="75.0" prefWidth="130.0" text="save" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#clean" prefHeight="76.0" prefWidth="139.0" text="Clean">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="15.0" right="15.0" top="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      
+   </children>
+</VBox>

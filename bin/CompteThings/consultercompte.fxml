@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="413.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CompteThings.cred_deb_iterController">
+   <children>
+      <TextField fx:id="montantflied" layoutX="96.0" layoutY="246.0" />
+      <Text layoutX="21.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crediter ou debiter compte" wrappingWidth="337.6708984375">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="numcomptecombobox" layoutX="96.0" layoutY="164.0" prefHeight="31.0" prefWidth="187.0" promptText="Num_Compte" />
+      <ImageView fitHeight="89.0" fitWidth="110.0" layoutX="52.0" layoutY="302.0" onMouseClicked="#debitercliked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../5171067.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="89.0" layoutX="231.0" layoutY="295.0" onMouseClicked="#crediteraction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../donate-money-icon-1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
